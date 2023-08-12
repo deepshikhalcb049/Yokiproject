@@ -1,38 +1,291 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.header{
+width: 100%;
+height: 80px;
+flex-shrink: 0;
+background: rgb(0, 0, 0);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+justify-content: space-between;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+  width: 120px;
+height: 27.69px;
 }
-
-.App-link {
-  color: #61dafb;
+.butt{
+  border-radius: 12px;
+background: #1AA179;
+display: inline-flex;
+padding: 16px 31.11px 16px 30.89px;
+align-items: flex-start;
+color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 16px; /* 100% */
+letter-spacing: 0.5px;
+text-transform: uppercase;
 }
+.second{
+  background-image: url('img/div.t396__carrier.png');
+  background-size: cover;
+  
+}
+.t1{
+  background: linear-gradient(0deg, #4DD4AC 0%, #CEE44B 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-family: Manrope;
+font-size: 57px;
+font-style: normal;
+font-weight: 800;
+line-height: 67px; /* 119.643% */
+letter-spacing: -1px;
+}
+.t2{
+  color: #FFF;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+letter-spacing: -0.5px;
+}
+.b1{
+  display: inline-flex;
+padding: 20px 31.11px 20px 30.89px;
+align-items: flex-start;
+border-radius: 12px;
+background: #1AA179;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 16px; /* 100% */
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+.bt2{
+  border-radius: 12px;
+border: 1px solid #1AA179;
+display: inline-flex;
+padding: 20px 30.39px 20px 30.61px;
+align-items: flex-start;
+color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 16px; /* 100% */
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+.tt1{
+  color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+.tt2{
+  color: #9298A6;
+text-align: center;
+font-family: Manrope;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 150% */
+letter-spacing: 4px;
+}
+.cardtext1{
+  color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 23.996px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.692% */
+letter-spacing: -1px;
+}
+.cardss{
+  width: 359.97px;
+height: 453.97px;
+flex-shrink: 0;
+border-radius: 32px;
+opacity: 0.9637;
+background: #120D27;
+}
+.cardtext2{
+  color: #9298A6;
+text-align: center;
+font-family: Manrope;
+font-size: 15.997px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150.027% */
+letter-spacing: -0.5px;
+opacity: 0.9637;
+}
+.cardtext3{
+  color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 15.997px;
+font-style: normal;
+font-weight: 800;
+line-height: 24.8px; /* 155.025% */
+letter-spacing: 0.5px;
+text-transform: uppercase;
+opacity: 0.9653;
+margin-top: 44px;
+}
+.ft1{
+  color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 120.833% */
+letter-spacing: -1px;
+opacity: 0.9948;
+}
+.ft2{
+  color: #9298A6;
+text-align: center;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+letter-spacing: -0.5px;
+opacity: 0.9709;
+}
+.lcard{
+  border-radius: 32px;
+border: 1px solid #453299;
+opacity: 0.9653;
+}
+.lc1{
+  color: #453299;
+text-align: center;
+font-family: Manrope;
+font-size: 23.996px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.69% */
+letter-spacing: -1px;
+width: 139px;
+height: 70px;
+}
+.seccard{
+  background-image: url(./img/bgblue.png);
+  background-size: cover;
+}
+.seccart1{
+  color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 120.833% */
+letter-spacing: -1px;
+opacity: 0.9986;
+}
+.seccart2{
+  color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+letter-spacing: -0.5px;
+opacity: 0.9005;
+}
+.intext{
+  color: #FFF;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Manrope;
+font-size: 13.997px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.603% */
+opacity: 0.7562;
+/* width: 74px; */
+}
+.newt{
+  color: #FFF;
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 120.833% */
+letter-spacing: -1px;
+width: 278px;
+}
+.cc{
+  width: 120px;
+  height: 120px;
+}
+.bgfoot{
+  /* background: radial-gradient(circle at 3%, #0082E4, #0082E4 7%, #0082E4 5%, #f9f9f9 10%); */
+    opacity: 0.8;
+filter: blur(20px);
+z-index: 0;
+background-color: #09101D;
+}
+.foot{
+ 
+  
+  background-size: cover;
+  align-self: baseline;
+  fill: radial-gradient(circle at center, red 0, blue, green 100%)
+}
+.ff{
+  color: #9298A6;
+font-family: Manrope;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px; /* 150% */
+letter-spacing: 2px;
+}
+.ss{
+  color: #FFF;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 100% */
+}
+.tt{
+  color: #FFF;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 100% */
+}
+.foottext{
+  color: #9298A6;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
 }
